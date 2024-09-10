@@ -26,56 +26,57 @@
   <div class="container">
     <h3>Newman Report</h3>
     <div class="row">
-        <div class="col-md-3">Collection</div><div class="col-md-9">contract-tests-listar-produtos</div>
+        <div class="col-md-3">Collection</div><div class="col-md-9">Teste de Integração</div>
         
-        <div class="col-md-3">Time</div><div class="col-md-9">Mon Sep 02 2024 10:20:18 GMT-0300 (Horário Padrão de Brasília)</div>
-        <div class="col-md-3">Exported with</div><div class="col-md-9">Newman v4.6.1</div>
+        <div class="col-md-3">Time</div><div class="col-md-9">Sat Sep 07 2024 18:46:52 GMT-0300 (Horário Padrão de Brasília)</div>
+        <div class="col-md-3">Exported with</div><div class="col-md-9">Newman v6.2.1</div>
         <div class="col-md-12">&nbsp;</div>
         <div class="col-md-4">&nbsp;</div><div class="col-md-4"><strong>Total</strong></div><div class="col-md-4"><strong>Failed</strong></div>
 
           <div class="col-md-4">Iterations</div><div class="col-md-4">1</div><div class="col-md-4">0</div>
-          <div class="col-md-4">Requests</div><div class="col-md-4">1</div><div class="col-md-4">1</div>
-          <div class="col-md-4">Prerequest Scripts</div><div class="col-md-4">0</div><div class="col-md-4">0</div>
-          <div class="col-md-4">Test Scripts</div><div class="col-md-4">1</div><div class="col-md-4">0</div>
-          <div class="col-md-4">Assertions</div><div class="col-md-4">2</div><div class="col-md-4">2</div>
+          <div class="col-md-4">Requests</div><div class="col-md-4">4</div><div class="col-md-4">0</div>
+          <div class="col-md-4">Prerequest Scripts</div><div class="col-md-4">1</div><div class="col-md-4">0</div>
+          <div class="col-md-4">Test Scripts</div><div class="col-md-4">4</div><div class="col-md-4">0</div>
+          <div class="col-md-4">Assertions</div><div class="col-md-4">10</div><div class="col-md-4">8</div>
 
         <div class="col-md-12">&nbsp;</div>
-        <div class="col-md-6">Total run duration</div><div class="col-md-6">141ms</div>
-        <div class="col-md-6">Total data received</div><div class="col-md-6">0B (approx)</div>
-        <div class="col-md-6">Average response time</div><div class="col-md-6">0ms</div>
+        <div class="col-md-6">Total run duration</div><div class="col-md-6">386ms</div>
+        <div class="col-md-6">Total data received</div><div class="col-md-6">2.16KB (approx)</div>
+        <div class="col-md-6">Average response time</div><div class="col-md-6">13ms</div>
 
         <div class="col-md-12">&nbsp;</div>
-        <div class="col-md-3"><strong>Total Failures</strong></div><div class="col-md-6"><strong>3</strong></div>
+        <div class="col-md-3"><strong>Total Failures</strong></div><div class="col-md-6"><strong>8</strong></div>
     </div>
 
     <br/><h4>Requests</h4>
 
-                <div class="panel-group" id="collapse-request-cfd1de0d-7004-43dd-a2ee-8f7bf7afab16" role="tablist" aria-multiselectable="true">
+                <div class="panel-group" id="collapse-request-53452f2b-7629-47cc-b95a-1fb04ab0734f" role="tablist" aria-multiselectable="true">
                     <div class="panel panel-default">
-                        <div class="panel-heading" role="tab" id="requestHead-cfd1de0d-7004-43dd-a2ee-8f7bf7afab16">
-                            <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion" href="#requestData-cfd1de0d-7004-43dd-a2ee-8f7bf7afab16" aria-controls="collapseOne">Listar Produtos</a></h4>
+                        <div class="panel-heading" role="tab" id="requestHead-53452f2b-7629-47cc-b95a-1fb04ab0734f">
+                            <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion" href="#requestData-53452f2b-7629-47cc-b95a-1fb04ab0734f" aria-controls="collapseOne">Realizar login</a></h4>
                         </div>
         
-                        <div id="requestData-cfd1de0d-7004-43dd-a2ee-8f7bf7afab16" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="requestHead-cfd1de0d-7004-43dd-a2ee-8f7bf7afab16">
+                        <div id="requestData-53452f2b-7629-47cc-b95a-1fb04ab0734f" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="requestHead-53452f2b-7629-47cc-b95a-1fb04ab0734f">
                             <div class="panel-body">
+                                        <div class="col-md-4">Description</div><div class="col-md-8" style="white-space: pre-wrap;">A duração do token retornado em authorization é de 600 segundos (10 minutos). Caso esteja expirado irá receber status code 401 (Unauthorized).
+        </div>
+                                        <div class="col-md-12">&nbsp;</div>
         
-                                    <div class="col-md-4">Method</div><div class="col-md-8">GET</div>
-                                    <div class="col-md-4">URL</div><div class="col-md-8"><a href="http://localhost:3000/produtos" target="_blank">http://localhost:3000/produtos</a></div>
+                                    <div class="col-md-4">Method</div><div class="col-md-8">POST</div>
+                                    <div class="col-md-4">URL</div><div class="col-md-8"><a href="http://localhost:3000/login" target="_blank">http://localhost:3000/login</a></div>
         
                                 <div class="col-md-12">&nbsp;</div>
-                                    <div class="col-md-4"><b>Error</b></div><div class="col-md-8"><b>There was an error sending this request</b></div>
-                                    <div class="col-md-4"><b>Error code</b></div><div class="col-md-8"><b>ERR_INVALID_IP_ADDRESS</b></div>
         
                                 <div class="col-md-12">&nbsp;</div>
-                                <div class="col-md-4">Mean time per request</div><div class="col-md-8">0ms</div><br/>
-                                <div class="col-md-4">Mean size per request</div><div class="col-md-8">0B</div><br/>
+                                <div class="col-md-4">Mean time per request</div><div class="col-md-8">38ms</div><br/>
+                                <div class="col-md-4">Mean size per request</div><div class="col-md-8">50B</div><br/>
         
                                 <div class="col-md-12">&nbsp;</div>
                                 <br/><div class="col-md-4">Total passed tests</div><div class="col-md-8">0</div>
                                 <div class="col-md-4">Total failed tests</div><div class="col-md-8">2</div><br/>
         
                                 <div class="col-md-12">&nbsp;</div>
-                                <br/><div class="col-md-4">Status code</div><div class="col-md-8"></div><br/>
+                                <br/><div class="col-md-4">Status code</div><div class="col-md-8">400</div><br/>
         
                                     <div class="col-md-12">&nbsp;</div>
                                     <div class="col-md-4">Tests</div>
@@ -83,7 +84,125 @@
                                     <div class="col-md-8">
                                         <table class="table table-responsive table-condensed">
                                             <thead><tr><th>Name</th><th>Pass count</th><th>Fail count</th></tr></thead>
-                                            <tbody><tr><td>Status code is 200</td><td>0</td><td>1</td></tr><tr><td>Validação da estrutura de resposta - Listagem de Produtos</td><td>0</td><td>1</td></tr></tbody>
+                                            <tbody><tr><td>Status code é 200</td><td>0</td><td>1</td></tr><tr><td>Validar mensagem de sucesso</td><td>0</td><td>1</td></tr></tbody>
+                                        </table>
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel-group" id="collapse-request-ea8b95be-3628-41d4-8e19-1f831b03c553" role="tablist" aria-multiselectable="true">
+                    <div class="panel panel-default">
+                        <div class="panel-heading" role="tab" id="requestHead-ea8b95be-3628-41d4-8e19-1f831b03c553">
+                            <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion" href="#requestData-ea8b95be-3628-41d4-8e19-1f831b03c553" aria-controls="collapseOne">Cadastrar produto</a></h4>
+                        </div>
+        
+                        <div id="requestData-ea8b95be-3628-41d4-8e19-1f831b03c553" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="requestHead-ea8b95be-3628-41d4-8e19-1f831b03c553">
+                            <div class="panel-body">
+                                        <div class="col-md-4">Description</div><div class="col-md-8" style="white-space: pre-wrap;">Não é permitido cadastrar produto com nome já utilizado</div>
+                                        <div class="col-md-12">&nbsp;</div>
+        
+                                    <div class="col-md-4">Method</div><div class="col-md-8">POST</div>
+                                    <div class="col-md-4">URL</div><div class="col-md-8"><a href="http://localhost:3000/produtos" target="_blank">http://localhost:3000/produtos</a></div>
+        
+                                <div class="col-md-12">&nbsp;</div>
+        
+                                <div class="col-md-12">&nbsp;</div>
+                                <div class="col-md-4">Mean time per request</div><div class="col-md-8">5ms</div><br/>
+                                <div class="col-md-4">Mean size per request</div><div class="col-md-8">103B</div><br/>
+        
+                                <div class="col-md-12">&nbsp;</div>
+                                <br/><div class="col-md-4">Total passed tests</div><div class="col-md-8">0</div>
+                                <div class="col-md-4">Total failed tests</div><div class="col-md-8">4</div><br/>
+        
+                                <div class="col-md-12">&nbsp;</div>
+                                <br/><div class="col-md-4">Status code</div><div class="col-md-8">401</div><br/>
+        
+                                    <div class="col-md-12">&nbsp;</div>
+                                    <div class="col-md-4">Tests</div>
+        
+                                    <div class="col-md-8">
+                                        <table class="table table-responsive table-condensed">
+                                            <thead><tr><th>Name</th><th>Pass count</th><th>Fail count</th></tr></thead>
+                                            <tbody><tr><td>Validar mensagem de sucesso</td><td>0</td><td>1</td></tr><tr><td>Status code é 201</td><td>0</td><td>1</td></tr><tr><td>Resposta contém o campo &#x27;_id&#x27;</td><td>0</td><td>1</td></tr><tr><td>Campo &#x27;_id&#x27; não está vazio</td><td>0</td><td>1</td></tr></tbody>
+                                        </table>
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel-group" id="collapse-request-89a60f21-a8e5-4db8-9d9a-9554cf8195fa" role="tablist" aria-multiselectable="true">
+                    <div class="panel panel-default">
+                        <div class="panel-heading" role="tab" id="requestHead-89a60f21-a8e5-4db8-9d9a-9554cf8195fa">
+                            <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion" href="#requestData-89a60f21-a8e5-4db8-9d9a-9554cf8195fa" aria-controls="collapseOne">Excluir produto</a></h4>
+                        </div>
+        
+                        <div id="requestData-89a60f21-a8e5-4db8-9d9a-9554cf8195fa" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="requestHead-89a60f21-a8e5-4db8-9d9a-9554cf8195fa">
+                            <div class="panel-body">
+                                        <div class="col-md-4">Description</div><div class="col-md-8" style="white-space: pre-wrap;">Não é permitido cadastrar produto com nome já utilizado</div>
+                                        <div class="col-md-12">&nbsp;</div>
+        
+                                    <div class="col-md-4">Method</div><div class="col-md-8">DELETE</div>
+                                    <div class="col-md-4">URL</div><div class="col-md-8"><a href="http://localhost:3000/produtos/null" target="_blank">http://localhost:3000/produtos/null</a></div>
+        
+                                <div class="col-md-12">&nbsp;</div>
+        
+                                <div class="col-md-12">&nbsp;</div>
+                                <div class="col-md-4">Mean time per request</div><div class="col-md-8">4ms</div><br/>
+                                <div class="col-md-4">Mean size per request</div><div class="col-md-8">103B</div><br/>
+        
+                                <div class="col-md-12">&nbsp;</div>
+                                <br/><div class="col-md-4">Total passed tests</div><div class="col-md-8">0</div>
+                                <div class="col-md-4">Total failed tests</div><div class="col-md-8">2</div><br/>
+        
+                                <div class="col-md-12">&nbsp;</div>
+                                <br/><div class="col-md-4">Status code</div><div class="col-md-8">401</div><br/>
+        
+                                    <div class="col-md-12">&nbsp;</div>
+                                    <div class="col-md-4">Tests</div>
+        
+                                    <div class="col-md-8">
+                                        <table class="table table-responsive table-condensed">
+                                            <thead><tr><th>Name</th><th>Pass count</th><th>Fail count</th></tr></thead>
+                                            <tbody><tr><td>Status code é 200</td><td>0</td><td>1</td></tr><tr><td>Validar mensagem de sucesso</td><td>0</td><td>1</td></tr></tbody>
+                                        </table>
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel-group" id="collapse-request-2534eae0-cb26-434d-b4c0-d7c3fe68f959" role="tablist" aria-multiselectable="true">
+                    <div class="panel panel-default">
+                        <div class="panel-heading" role="tab" id="requestHead-2534eae0-cb26-434d-b4c0-d7c3fe68f959">
+                            <h4 class="panel-title"><a data-toggle="collapse" data-parent="#accordion" href="#requestData-2534eae0-cb26-434d-b4c0-d7c3fe68f959" aria-controls="collapseOne">Verifica se produto foi deletado</a></h4>
+                        </div>
+        
+                        <div id="requestData-2534eae0-cb26-434d-b4c0-d7c3fe68f959" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="requestHead-2534eae0-cb26-434d-b4c0-d7c3fe68f959">
+                            <div class="panel-body">
+        
+                                    <div class="col-md-4">Method</div><div class="col-md-8">GET</div>
+                                    <div class="col-md-4">URL</div><div class="col-md-8"><a href="http://localhost:3000/produtos" target="_blank">http://localhost:3000/produtos</a></div>
+        
+                                <div class="col-md-12">&nbsp;</div>
+        
+                                <div class="col-md-12">&nbsp;</div>
+                                <div class="col-md-4">Mean time per request</div><div class="col-md-8">5ms</div><br/>
+                                <div class="col-md-4">Mean size per request</div><div class="col-md-8">1.91KB</div><br/>
+        
+                                <div class="col-md-12">&nbsp;</div>
+                                <br/><div class="col-md-4">Total passed tests</div><div class="col-md-8">2</div>
+                                <div class="col-md-4">Total failed tests</div><div class="col-md-8">0</div><br/>
+        
+                                <div class="col-md-12">&nbsp;</div>
+                                <br/><div class="col-md-4">Status code</div><div class="col-md-8">200</div><br/>
+        
+                                    <div class="col-md-12">&nbsp;</div>
+                                    <div class="col-md-4">Tests</div>
+        
+                                    <div class="col-md-8">
+                                        <table class="table table-responsive table-condensed">
+                                            <thead><tr><th>Name</th><th>Pass count</th><th>Fail count</th></tr></thead>
+                                            <tbody><tr><td>Status code is 200</td><td>1</td><td>0</td></tr><tr><td>Produto deletado não consta na lista</td><td>1</td><td>0</td></tr></tbody>
                                         </table>
                                     </div>
                             </div>
@@ -98,7 +217,7 @@
                     <div class="panel-heading" role="tab" id="failureHead-0">
                         <h4 class="panel-title">
                             <a data-toggle="collapse" data-parent="#accordion" href="#failureData-0" aria-controls="collapseOne">
-                                TypeError: Invalid IP address: undefined
+                                AssertionError: Status code é 200
                             </a>
                         </h4>
                     </div>
@@ -106,10 +225,11 @@
                     <div id="failureData-0" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="failureHead-0">
                         <div class="panel-body">
                             <div class="col-md-12">&nbsp;</div>
+                                <div class="col-md-4">Description</div><div class="col-md-8">expected response to have status code 200 but got 400</div><br/>
 
-                            <div class="col-md-4">Location</div><div class="col-md-8">request</div><br/>
+                            <div class="col-md-4">Location</div><div class="col-md-8">assertion:0 in test-script</div><br/>
                             <div class="col-md-4">Request</div><div class="col-md-8">
-                                <a href="#collapse-request-cfd1de0d-7004-43dd-a2ee-8f7bf7afab16">Listar Produtos</a>
+                                <a href="#collapse-request-53452f2b-7629-47cc-b95a-1fb04ab0734f">Realizar login</a>
                             </div>
                         </div>
                     </div>
@@ -120,7 +240,7 @@
                     <div class="panel-heading" role="tab" id="failureHead-1">
                         <h4 class="panel-title">
                             <a data-toggle="collapse" data-parent="#accordion" href="#failureData-1" aria-controls="collapseOne">
-                                AssertionError: Status code is 200
+                                AssertionError: Validar mensagem de sucesso
                             </a>
                         </h4>
                     </div>
@@ -128,11 +248,11 @@
                     <div id="failureData-1" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="failureHead-1">
                         <div class="panel-body">
                             <div class="col-md-12">&nbsp;</div>
-                                <div class="col-md-4">Description</div><div class="col-md-8">expected { Object (id, _details, ...) } to have property &#x27;code&#x27;</div><br/>
+                                <div class="col-md-4">Description</div><div class="col-md-8">expected &#x27;{\n    &quot;email&quot;: &quot;email deve ser um em…&#x27; to include &#x27;Login realizado com sucesso&#x27;</div><br/>
 
-                            <div class="col-md-4">Location</div><div class="col-md-8">assertion:0 in test-script</div><br/>
+                            <div class="col-md-4">Location</div><div class="col-md-8">assertion:1 in test-script</div><br/>
                             <div class="col-md-4">Request</div><div class="col-md-8">
-                                <a href="#collapse-request-cfd1de0d-7004-43dd-a2ee-8f7bf7afab16">Listar Produtos</a>
+                                <a href="#collapse-request-53452f2b-7629-47cc-b95a-1fb04ab0734f">Realizar login</a>
                             </div>
                         </div>
                     </div>
@@ -143,7 +263,7 @@
                     <div class="panel-heading" role="tab" id="failureHead-2">
                         <h4 class="panel-title">
                             <a data-toggle="collapse" data-parent="#accordion" href="#failureData-2" aria-controls="collapseOne">
-                                JSONError: Validação da estrutura de resposta - Listagem de Produtos
+                                AssertionError: Validar mensagem de sucesso
                             </a>
                         </h4>
                     </div>
@@ -151,11 +271,126 @@
                     <div id="failureData-2" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="failureHead-2">
                         <div class="panel-body">
                             <div class="col-md-12">&nbsp;</div>
-                                <div class="col-md-4">Description</div><div class="col-md-8">&quot;undefined&quot; is not valid JSON</div><br/>
+                                <div class="col-md-4">Description</div><div class="col-md-8">expected &#x27;{\n    &quot;message&quot;: &quot;Token de acesso au…&#x27; to include &#x27;Cadastro realizado com sucesso&#x27;</div><br/>
+
+                            <div class="col-md-4">Location</div><div class="col-md-8">assertion:0 in test-script</div><br/>
+                            <div class="col-md-4">Request</div><div class="col-md-8">
+                                <a href="#collapse-request-ea8b95be-3628-41d4-8e19-1f831b03c553">Cadastrar produto</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="panel-group" id="collapse-failure-3" role="tablist" aria-multiselectable="true">
+                <div class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="failureHead-3">
+                        <h4 class="panel-title">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#failureData-3" aria-controls="collapseOne">
+                                AssertionError: Status code é 201
+                            </a>
+                        </h4>
+                    </div>
+
+                    <div id="failureData-3" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="failureHead-3">
+                        <div class="panel-body">
+                            <div class="col-md-12">&nbsp;</div>
+                                <div class="col-md-4">Description</div><div class="col-md-8">expected response to have status code 201 but got 401</div><br/>
 
                             <div class="col-md-4">Location</div><div class="col-md-8">assertion:1 in test-script</div><br/>
                             <div class="col-md-4">Request</div><div class="col-md-8">
-                                <a href="#collapse-request-cfd1de0d-7004-43dd-a2ee-8f7bf7afab16">Listar Produtos</a>
+                                <a href="#collapse-request-ea8b95be-3628-41d4-8e19-1f831b03c553">Cadastrar produto</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="panel-group" id="collapse-failure-4" role="tablist" aria-multiselectable="true">
+                <div class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="failureHead-4">
+                        <h4 class="panel-title">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#failureData-4" aria-controls="collapseOne">
+                                AssertionError: Resposta contém o campo &#x27;_id&#x27;
+                            </a>
+                        </h4>
+                    </div>
+
+                    <div id="failureData-4" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="failureHead-4">
+                        <div class="panel-body">
+                            <div class="col-md-12">&nbsp;</div>
+                                <div class="col-md-4">Description</div><div class="col-md-8">expected { Object (message) } to have property &#x27;_id&#x27;</div><br/>
+
+                            <div class="col-md-4">Location</div><div class="col-md-8">assertion:2 in test-script</div><br/>
+                            <div class="col-md-4">Request</div><div class="col-md-8">
+                                <a href="#collapse-request-ea8b95be-3628-41d4-8e19-1f831b03c553">Cadastrar produto</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="panel-group" id="collapse-failure-5" role="tablist" aria-multiselectable="true">
+                <div class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="failureHead-5">
+                        <h4 class="panel-title">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#failureData-5" aria-controls="collapseOne">
+                                AssertionError: Campo &#x27;_id&#x27; não está vazio
+                            </a>
+                        </h4>
+                    </div>
+
+                    <div id="failureData-5" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="failureHead-5">
+                        <div class="panel-body">
+                            <div class="col-md-12">&nbsp;</div>
+                                <div class="col-md-4">Description</div><div class="col-md-8">.empty was passed non-string primitive undefined</div><br/>
+
+                            <div class="col-md-4">Location</div><div class="col-md-8">assertion:3 in test-script</div><br/>
+                            <div class="col-md-4">Request</div><div class="col-md-8">
+                                <a href="#collapse-request-ea8b95be-3628-41d4-8e19-1f831b03c553">Cadastrar produto</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="panel-group" id="collapse-failure-6" role="tablist" aria-multiselectable="true">
+                <div class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="failureHead-6">
+                        <h4 class="panel-title">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#failureData-6" aria-controls="collapseOne">
+                                AssertionError: Status code é 200
+                            </a>
+                        </h4>
+                    </div>
+
+                    <div id="failureData-6" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="failureHead-6">
+                        <div class="panel-body">
+                            <div class="col-md-12">&nbsp;</div>
+                                <div class="col-md-4">Description</div><div class="col-md-8">expected response to have status code 200 but got 401</div><br/>
+
+                            <div class="col-md-4">Location</div><div class="col-md-8">assertion:0 in test-script</div><br/>
+                            <div class="col-md-4">Request</div><div class="col-md-8">
+                                <a href="#collapse-request-89a60f21-a8e5-4db8-9d9a-9554cf8195fa">Excluir produto</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="panel-group" id="collapse-failure-7" role="tablist" aria-multiselectable="true">
+                <div class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="failureHead-7">
+                        <h4 class="panel-title">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#failureData-7" aria-controls="collapseOne">
+                                AssertionError: Validar mensagem de sucesso
+                            </a>
+                        </h4>
+                    </div>
+
+                    <div id="failureData-7" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="failureHead-7">
+                        <div class="panel-body">
+                            <div class="col-md-12">&nbsp;</div>
+                                <div class="col-md-4">Description</div><div class="col-md-8">expected &#x27;{\n    &quot;message&quot;: &quot;Token de acesso au…&#x27; to include &#x27;Registro excluído com sucesso&#x27;</div><br/>
+
+                            <div class="col-md-4">Location</div><div class="col-md-8">assertion:1 in test-script</div><br/>
+                            <div class="col-md-4">Request</div><div class="col-md-8">
+                                <a href="#collapse-request-89a60f21-a8e5-4db8-9d9a-9554cf8195fa">Excluir produto</a>
                             </div>
                         </div>
                     </div>
